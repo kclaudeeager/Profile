@@ -12,6 +12,11 @@ export default function About() {
                         icon="/icons/code.svg"
                         description="I develop Front-End with both vanilla and Javascript frameworks."
                         projects={10} />
+                        <AboutCard
+                        title="Desktop Application"
+                        icon="/icons/code.svg"
+                        description="I develop Desktop Applications using JavaFX."
+                        projects={10} />
                     <AboutCard
                         title="Mobile"
                         icon="/icons/phone.svg"
