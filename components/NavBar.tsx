@@ -13,7 +13,7 @@ export default function NavBar() {
                 <li className="green">
                     <Link href="/">{"< Home />"}</Link>
                 </li>
-                <li>
+                <li className="pulse-button">
                     <Link href="/#about">About Me.</Link>
                 </li>
             </ul>

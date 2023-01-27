@@ -195,3 +195,23 @@ footer ul li {
     margin-left: 0;
   }
 }
+.pulse-button {
+  animation: pulse 1s infinite;
+}
+
+/* Pause the animation when the button is hovered over */
+.pulse-button:hover {
+  animation-play-state: paused;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes pulse {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.1); }
+   100% { transform: scale(1); }
+}

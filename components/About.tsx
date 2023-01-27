@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 
 export default function About() {
     return (
-        <section id="about" className="dark-bg">
+        <section id="about" className="dark-bg  ">
             <div className="flex">
                 <div className="flex-full">
                    
@@ -70,7 +70,7 @@ function AboutCard ({title, icon, description, projects} : Props) {
                 <Image src={icon} width={28} height={28} alt={title} />
             </div>
             <p className="white">{description}</p>
-            <span className="gray">{projects.toString()} projects</span>
+            <span className="gray pulse-button"><a href="https://github.com/kclaudeeager">{projects.toString()} projects</a></span>
         </div>
     )
 }
